@@ -2,8 +2,6 @@
 
 Sentence-level analysis of airline passenger reviews. Each sentence is labelled with the aspect it talks about (staff, luggage, meals, …) and a sentiment score. This project cleans a messy raw CSV, reshapes it, compares four airlines at the review level, and trains a baseline sentiment classifier.
 
-> Dataset source: _add link / citation here_
-
 ## Dataset
 
 | | |
@@ -39,8 +37,6 @@ The raw CSV had several problems:
 ## Findings
 
 ### Sentiment by aspect (share of mentions, aspects with 20+ mentions)
-
-![Sentiment by aspect](images/sentiment_by_aspect.png)
 
 - **Service before and after the flight** is the largest topic (332 mentions) and about 78% negative.
 - **Luggage** is about 86% negative but has only 44 mentions.
